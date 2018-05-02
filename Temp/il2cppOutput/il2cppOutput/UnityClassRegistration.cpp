@@ -32,6 +32,9 @@ void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UnityConnect();
 	RegisterModule_UnityConnect();
 
+	void RegisterModule_Vehicles();
+	RegisterModule_Vehicles();
+
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
 
@@ -141,7 +144,7 @@ class CharacterController;
 class MeshCollider; template <> void RegisterClass<MeshCollider>();
 class SphereCollider; template <> void RegisterClass<SphereCollider>();
 class TerrainCollider; 
-class WheelCollider; 
+class WheelCollider; template <> void RegisterClass<WheelCollider>();
 namespace Unity { class Joint; } 
 namespace Unity { class CharacterJoint; } 
 namespace Unity { class ConfigurableJoint; } 
@@ -168,7 +171,7 @@ class SpriteMask;
 class SpriteRenderer; 
 class TilemapRenderer; 
 class TrailRenderer; 
-class Rigidbody; 
+class Rigidbody; template <> void RegisterClass<Rigidbody>();
 class Rigidbody2D; 
 namespace TextRenderingPrivate { class TextMesh; } 
 class Transform; template <> void RegisterClass<Transform>();
@@ -187,7 +190,7 @@ class AudioMixerGroup;
 class AudioMixerGroupController; 
 class AudioMixerSnapshot; 
 class AudioMixerSnapshotController; 
-class Avatar; 
+class Avatar; template <> void RegisterClass<Avatar>();
 class AvatarMask; 
 class BillboardAsset; 
 class ComputeShader; 
@@ -272,7 +275,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 73 non stripped classes
+	//Total: 76 non stripped classes
 	//0. Behaviour
 	RegisterClass<Behaviour>();
 	//1. Unity::Component
@@ -413,11 +416,17 @@ RegisterBuiltinTypes();
 	RegisterClass<FlareLayer>();
 	//69. BoxCollider
 	RegisterClass<BoxCollider>();
-	//70. PhysicMaterial
+	//70. Rigidbody
+	RegisterClass<Rigidbody>();
+	//71. PhysicMaterial
 	RegisterClass<PhysicMaterial>();
-	//71. SphereCollider
+	//72. SphereCollider
 	RegisterClass<SphereCollider>();
-	//72. ParticleSystemRenderer
+	//73. Avatar
+	RegisterClass<Avatar>();
+	//74. ParticleSystemRenderer
 	RegisterClass<ParticleSystemRenderer>();
+	//75. WheelCollider
+	RegisterClass<WheelCollider>();
 
 }

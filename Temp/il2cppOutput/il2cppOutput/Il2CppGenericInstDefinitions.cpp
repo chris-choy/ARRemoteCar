@@ -339,12 +339,12 @@ extern const Il2CppType List_1_t3628304265_0_0_0;
 extern const Il2CppType List_1_t496136383_0_0_0;
 extern const Il2CppType List_1_t128053199_0_0_0;
 extern const Il2CppType List_1_t1234605051_0_0_0;
+extern const Il2CppType ARHitTestResult_t1279023930_0_0_0;
+extern const Il2CppType ARHitTestResultType_t475323638_0_0_0;
 extern const Il2CppType KeyValuePair_2_t847377929_0_0_0;
 extern const Il2CppType KeyValuePair_2_t3580195240_0_0_0;
 extern const Il2CppType Link_t1976611498_0_0_0;
 extern const Il2CppType UnityARVideoFormat_t1944454781_0_0_0;
-extern const Il2CppType ARHitTestResult_t1279023930_0_0_0;
-extern const Il2CppType ARHitTestResultType_t475323638_0_0_0;
 extern const Il2CppType ParticleSystem_t1800779281_0_0_0;
 extern const Il2CppType ARReferenceImage_t2463148469_0_0_0;
 extern const Il2CppType LLEntry_t1211101965_0_0_0;
@@ -1349,6 +1349,10 @@ static const RuntimeType* GenInst_List_1_t128053199_0_0_0_Types[] = { (&List_1_t
 extern const Il2CppGenericInst GenInst_List_1_t128053199_0_0_0 = { 1, GenInst_List_1_t128053199_0_0_0_Types };
 static const RuntimeType* GenInst_List_1_t1234605051_0_0_0_Types[] = { (&List_1_t1234605051_0_0_0) };
 extern const Il2CppGenericInst GenInst_List_1_t1234605051_0_0_0 = { 1, GenInst_List_1_t1234605051_0_0_0_Types };
+static const RuntimeType* GenInst_ARHitTestResult_t1279023930_0_0_0_Types[] = { (&ARHitTestResult_t1279023930_0_0_0) };
+extern const Il2CppGenericInst GenInst_ARHitTestResult_t1279023930_0_0_0 = { 1, GenInst_ARHitTestResult_t1279023930_0_0_0_Types };
+static const RuntimeType* GenInst_ARHitTestResultType_t475323638_0_0_0_Types[] = { (&ARHitTestResultType_t475323638_0_0_0) };
+extern const Il2CppGenericInst GenInst_ARHitTestResultType_t475323638_0_0_0 = { 1, GenInst_ARHitTestResultType_t475323638_0_0_0_Types };
 static const RuntimeType* GenInst_String_t_0_0_0_Single_t1397266774_0_0_0_Types[] = { (&String_t_0_0_0), (&Single_t1397266774_0_0_0) };
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_Single_t1397266774_0_0_0 = { 2, GenInst_String_t_0_0_0_Single_t1397266774_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t847377929_0_0_0_Types[] = { (&KeyValuePair_2_t847377929_0_0_0) };
@@ -1371,10 +1375,6 @@ static const RuntimeType* GenInst_Link_t1976611498_0_0_0_Types[] = { (&Link_t197
 extern const Il2CppGenericInst GenInst_Link_t1976611498_0_0_0 = { 1, GenInst_Link_t1976611498_0_0_0_Types };
 static const RuntimeType* GenInst_UnityARVideoFormat_t1944454781_0_0_0_Types[] = { (&UnityARVideoFormat_t1944454781_0_0_0) };
 extern const Il2CppGenericInst GenInst_UnityARVideoFormat_t1944454781_0_0_0 = { 1, GenInst_UnityARVideoFormat_t1944454781_0_0_0_Types };
-static const RuntimeType* GenInst_ARHitTestResult_t1279023930_0_0_0_Types[] = { (&ARHitTestResult_t1279023930_0_0_0) };
-extern const Il2CppGenericInst GenInst_ARHitTestResult_t1279023930_0_0_0 = { 1, GenInst_ARHitTestResult_t1279023930_0_0_0_Types };
-static const RuntimeType* GenInst_ARHitTestResultType_t475323638_0_0_0_Types[] = { (&ARHitTestResultType_t475323638_0_0_0) };
-extern const Il2CppGenericInst GenInst_ARHitTestResultType_t475323638_0_0_0 = { 1, GenInst_ARHitTestResultType_t475323638_0_0_0_Types };
 static const RuntimeType* GenInst_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Types[] = { (&Single_t1397266774_0_0_0), (&Single_t1397266774_0_0_0), (&Single_t1397266774_0_0_0) };
 extern const Il2CppGenericInst GenInst_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0 = { 3, GenInst_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Types };
 static const RuntimeType* GenInst_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Types[] = { (&Single_t1397266774_0_0_0), (&Single_t1397266774_0_0_0) };
@@ -2283,6 +2283,8 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[665] =
 	&GenInst_List_1_t496136383_0_0_0,
 	&GenInst_List_1_t128053199_0_0_0,
 	&GenInst_List_1_t1234605051_0_0_0,
+	&GenInst_ARHitTestResult_t1279023930_0_0_0,
+	&GenInst_ARHitTestResultType_t475323638_0_0_0,
 	&GenInst_String_t_0_0_0_Single_t1397266774_0_0_0,
 	&GenInst_KeyValuePair_2_t847377929_0_0_0,
 	&GenInst_RuntimeObject_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0,
@@ -2294,8 +2296,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[665] =
 	&GenInst_String_t_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0,
 	&GenInst_Link_t1976611498_0_0_0,
 	&GenInst_UnityARVideoFormat_t1944454781_0_0_0,
-	&GenInst_ARHitTestResult_t1279023930_0_0_0,
-	&GenInst_ARHitTestResultType_t475323638_0_0_0,
 	&GenInst_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0,
 	&GenInst_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0,
 	&GenInst_ParticleSystem_t1800779281_0_0_0,

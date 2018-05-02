@@ -11249,6 +11249,11 @@ extern "C" void ARPlaneGeometry_get_triangleIndices_m3110323458 ();
 extern "C" void ARPlaneGeometry_MarshalVertices_m764975115 ();
 extern "C" void ARPlaneGeometry_MarshalIndices_m3238093765 ();
 extern "C" void ARPlaneGeometry_MarshalTexCoords_m1231403675 ();
+extern "C" void CarARHitTest__ctor_m4191746189 ();
+extern "C" void CarARHitTest_CarCreate_m1930750209 ();
+extern "C" void CarARHitTest_HitTestWithResultType_m1552556347 ();
+extern "C" void CarARHitTest_Start_m2573903589 ();
+extern "C" void CarARHitTest_Update_m3712104193 ();
 extern "C" void ConnectionMessageIds_get_fromEditorARKitSessionMsgId_m2127828669 ();
 extern "C" void ConnectionMessageIds_get_updateCameraFrameMsgId_m1599429092 ();
 extern "C" void ConnectionMessageIds_get_addPlaneAnchorMsgeId_m1488263461 ();
@@ -11648,7 +11653,7 @@ extern "C" void VideoFormatsExample_Start_m1615238214 ();
 extern "C" void VideoFormatsExample_OnDestroy_m541603283 ();
 extern "C" void VideoFormatsExample_PopulateVideoFormatButtons_m595526008 ();
 extern "C" void VideoFormatsExample_ExampletButtonPressed_m2588664126 ();
-extern const Il2CppMethodPointer g_MethodPointers[11630] = 
+extern const Il2CppMethodPointer g_MethodPointers[11635] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -22881,6 +22886,11 @@ extern const Il2CppMethodPointer g_MethodPointers[11630] =
 	ARPlaneGeometry_MarshalVertices_m764975115,
 	ARPlaneGeometry_MarshalIndices_m3238093765,
 	ARPlaneGeometry_MarshalTexCoords_m1231403675,
+	CarARHitTest__ctor_m4191746189,
+	CarARHitTest_CarCreate_m1930750209,
+	CarARHitTest_HitTestWithResultType_m1552556347,
+	CarARHitTest_Start_m2573903589,
+	CarARHitTest_Update_m3712104193,
 	ConnectionMessageIds_get_fromEditorARKitSessionMsgId_m2127828669,
 	ConnectionMessageIds_get_updateCameraFrameMsgId_m1599429092,
 	ConnectionMessageIds_get_addPlaneAnchorMsgeId_m1488263461,
